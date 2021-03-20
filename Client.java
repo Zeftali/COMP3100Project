@@ -1,10 +1,10 @@
 public class Client{
   private Socket socket		 = null; 
-	private BufferedReader input = null; 
-	private DataOutputStream out	 = null; 
-	private BufferedReader in	 = null; 
-	static private ArrayList<Element> serverType = null;
-	static private ArrayList<Server>  servers = null;
+  private BufferedReader input = null; 
+  private DataOutputStream out	 = null; 
+  private BufferedReader in	 = null; 
+  static private ArrayList<Element> serverType = null;
+  static private ArrayList<Server>  servers = null;
   
   public static void main(String args[]){
     String sorter = "";
